@@ -14,7 +14,8 @@ const App = () => {
         <Navigation />
           <div className="container mt-4">
             <Routes>
-              <Route path="/" element={<Home />} />
+                <Route path="/PNUV" element={<Home />} />
+                <Route path="/" element={<Home />} />
               <Route path="/mood-tracker" element={<MoodTracker />} />
               <Route path="/hbsc-data" element={<DataHbsc />} />
             </Routes>
