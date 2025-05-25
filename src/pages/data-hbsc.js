@@ -78,7 +78,7 @@ const HBSCData = () => (
             <div className="col-md-6">
                 <div className="card shadow h-100">
                     <div className="card-body">
-                        <h5 className="card-title text-center text-primary">Според Пол</h5>
+                        <h5 className="card-title text-center text-primary">Според Возраст</h5>
                         <HBSCSleepChart />
                     </div>
                 </div>
@@ -86,7 +86,7 @@ const HBSCData = () => (
             <div className="col-md-6">
                 <div className="card shadow h-100">
                     <div className="card-body">
-                        <h5 className="card-title text-center text-success">Според Возраст</h5>
+                        <h5 className="card-title text-center text-success">Ученици</h5>
                         <HBSCStressRadar />
                     </div>
                 </div>
